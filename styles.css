@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
+  height: 100vh;
+}
+.container {
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.new-container {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container1 {
+  min-width: 50%;
+  font-family: "poppins";
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+input {
+  display: block;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+
+#student-name {
+  text-transform: capitalize;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2f80ed;
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px 20px black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container2 {
+  min-width: 50%;
+  padding: 30px;
+  font-size: 20px;
+}
+
+p {
+  padding: 5px;
+}
+
+.records {
+  height: 750px;
+  overflow-y: auto;
+}
+.records button {
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #5d9ef3;
+  background-color: rgb(55, 92, 167);
+  color: white;
+}
+
+.newdiv {
+  margin: 15px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 10px 0px 10px 10px;
+  box-shadow: 1px 1px 10px black;
+  width: 400px;
+}
+
+.newdiv .Name {
+  text-transform: capitalize;
+}
+.records button:hover {
+  cursor: pointer;
+  background-color: black;
+  box-shadow: 3px 3px 20px rgb(13, 78, 198);
+}
+
+@media (max-width: 700px) {
+  .container2 {
+    padding: 0px;
+  }
+  .newdiv {
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .newdiv {
+    width: 250px;
+  }
+}
